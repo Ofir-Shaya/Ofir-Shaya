@@ -1,0 +1,51 @@
+div.background {
+  background-image: url("../../images/bjCover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  scroll-behavior: smooth;
+  margin: 0 6em 0em 6em;
+  padding: 1em;
+}
+:root {
+  background-size: cover;
+  background-repeat: no-repeat;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 72px;
+}
+.playerCards {
+  justify-content: center;
+  align-items: center;
+  display: inline-grid;
+}
+.playerInfo {
+  display: table-row-group;
+}
+
+.moneyDiv {
+  display: table-row-group;
+  justify-content: center;
+  margin-bottom: 0.5em;
+}
+.betDiv {
+  display: table-row-group;
+  justify-content: center;
+  margin-top: 1em;
+}
+.insuranceDiv {
+  display: table-row-group;
+  justify-content: center;
+  margin-top: 1em;
+}
+.splitGroup {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.header {
+  display: block;
+}

@@ -1,0 +1,81 @@
+.MainDiv {
+  background: linear-gradient(to right, #607d8b 25%, #37474f 50%, #546e7a 100%);
+  background-size: 100% 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: "solid";
+  margin: 0 6em 0 6em;
+}
+.all {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.Main-link {
+  color: #61dafb;
+}
+button.winners {
+  color: #71aabb;
+  font-size: larger;
+  font-weight: 700;
+  min-height: 23px;
+  min-width: 25px;
+  opacity: 50%;
+}
+li {
+  list-style-type: none;
+}
+
+:root {
+  background-color: #1a237e;
+}
+
+div.Squares {
+  height: 5em;
+  width: 5em;
+  margin-left: 48vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+div.Squares button {
+  background-color: #2b2d2f;
+  padding: 1px;
+  float: none;
+  color: #71dfbe;
+  border-radius: 0.125em;
+  font-size: medium;
+  font-weight: 350;
+  min-height: 23px;
+  min-width: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+li.inside {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+div.Calculator {
+  align-items: center;
+  justify-content: center;
+  background-color: #155555;
+  margin: 0 6em 0 6em;
+}
+
+div.TicTacToe {
+  align-items: center;
+  justify-content: center;
+  background-color: #928224;
+  margin: 0 6em 0 6em;
+}
