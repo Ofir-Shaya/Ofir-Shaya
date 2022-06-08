@@ -8,7 +8,7 @@ export const App = () => {
     <>
       <div className="all">
         <br />
-        <nav className="MainDiv">
+        <nav className="container">
           <div style={{ display: "inline" }}>
             <br />
             <MaterialLink component={RouterLink} underline="always" to="/">

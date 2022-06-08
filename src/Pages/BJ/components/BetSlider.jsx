@@ -6,7 +6,6 @@ import Slider from "@mui/material/Slider";
 import MuiInput from "@mui/material/Input";
 import { Button } from "@mui/material";
 import InputLabel from "@mui/material/InputLabel";
-import FormControl from "@mui/material/FormControl";
 import InputAdornment from "@mui/material/InputAdornment";
 import OutlinedInput from "@mui/material/OutlinedInput";
 import PaidRoundedIcon from "@mui/icons-material/PaidRounded";

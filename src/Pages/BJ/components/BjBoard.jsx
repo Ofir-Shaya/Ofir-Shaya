@@ -24,10 +24,7 @@ export const BjBoard = (props) => {
     if (card === undefined) return;
     if (card.includes("♢") || card.includes("♡")) {
       return "#ba000d";
-    }
-    if (card.includes("♠") || card.includes("♣")) {
-      return "#212121";
-    }
+    } else return "#212121";
   };
 
   const overBlackjack = (player) => {
