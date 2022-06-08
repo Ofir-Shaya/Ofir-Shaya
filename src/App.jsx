@@ -31,14 +31,22 @@ export const App = () => {
               Calculator
             </MaterialLink>{" "}
             |{" "}
+            <MaterialLink
+              component={RouterLink}
+              underline="always"
+              to="/Blackjack"
+            >
+              Blackjack
+            </MaterialLink>{" "}
+            |{" "}
+            <MaterialLink
+              component={RouterLink}
+              underline="always"
+              to="/Restaurant"
+            >
+              Restaurant
+            </MaterialLink>
           </div>
-          <MaterialLink
-            component={RouterLink}
-            underline="always"
-            to="/Blackjack"
-          >
-            Blackjack
-          </MaterialLink>
           <br />
           <br />
         </nav>

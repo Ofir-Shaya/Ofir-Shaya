@@ -42,6 +42,10 @@ export const TicTacToe = () => {
     setXTurn(true);
     setIsWinner(false);
     setMessage("");
+    for (let i = 0; i < 9; i++) {
+      document.getElementById(`${i}TicTacToe`).style.fontWeight = "300";
+      console.log(document.getElementById(`${i}TicTacToe`).style.fontWeight);
+    }
   };
 
   const checkWinner = () => {
