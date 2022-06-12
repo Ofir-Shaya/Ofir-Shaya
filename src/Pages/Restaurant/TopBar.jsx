@@ -13,7 +13,8 @@ import {
 import { Box } from "@mui/system";
 import React, { useEffect } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
-import AdbIcon from "@mui/icons-material/Adb";
+import FastfoodIcon from "@mui/icons-material/Fastfood";
+import "./css/style.css";
 
 const pages = ["Home", "Menu", "Our Restaurants", "About us", "Location"];
 const settings = ["Profile", "Account", "Logout"];
@@ -39,7 +40,7 @@ export const TopBar = () => {
       <AppBar position="static">
         <Container maxWidth="xl">
           <Toolbar disableGutters>
-            <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
+            <FastfoodIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
             <Typography
               variant="h6"
               noWrap
@@ -94,7 +95,7 @@ export const TopBar = () => {
                 ))}
               </Menu>
             </Box>
-            <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
+            <FastfoodIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
             <Typography
               variant="h5"
               noWrap
