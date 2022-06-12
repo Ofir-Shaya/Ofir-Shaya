@@ -2,7 +2,7 @@
   "name": "main",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ofir-shaya.github.io/",
+  "homepage": "https://ofir-shaya.github.io/Ofir-Shaya/",
   "dependencies": {
     "-": "^0.0.1",
     "@emotion/react": "^11.7.1",
