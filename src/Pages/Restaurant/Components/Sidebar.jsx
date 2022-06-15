@@ -1,10 +1,15 @@
 import * as React from "react";
 import "../css/style.css";
 import { SidebarData } from "./SidebarData";
-import { Box, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
+import { Link as MaterialLink } from "@mui/material";
+import { Outlet, Link as RouterLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export const Sidebar = (props) => {
-  const link = "Ofir-Shaya/Restaurant";
+  const linkStart = "Ofir-Shaya/Restaurant";
+  let navigate = useNavigate();
+
   return (
     <>
       {props.currentIcon === 2 ? (
@@ -16,13 +21,11 @@ export const Sidebar = (props) => {
                   key={key}
                   className="row"
                   id={
-                    window.location.pathname === `${link}` + value.link
+                    window.location.pathname === `${linkStart}` + value.link
                       ? "active"
                       : ""
                   }
-                  onClick={() => {
-                    window.location.pathname = `${link}` + value.link;
-                  }}
+                  onClick={() => navigate(0)}
                 >
                   <div id="icon">{value.icon}</div>
                   <div id="title">
@@ -42,13 +45,11 @@ export const Sidebar = (props) => {
                   key={key}
                   className="row"
                   id={
-                    window.location.pathname === `${link}` + value.link
+                    window.location.pathname === `${linkStart}` + value.link
                       ? "active"
                       : ""
                   }
-                  onClick={() => {
-                    window.location.pathname = `${link}` + value.link;
-                  }}
+                  onClick={() => navigate(0)}
                 >
                   <div id="icon">{value.icon}</div>
                 </li>
@@ -57,6 +58,9 @@ export const Sidebar = (props) => {
           </ul>
         </div>
       )}
+      <React.StrictMode>
+        <Outlet />
+      </React.StrictMode>
     </>
   );
 };
