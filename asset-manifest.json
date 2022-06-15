@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Ofir-Shaya/static/css/main.5a6ee3d7.css",
-    "main.js": "/Ofir-Shaya/static/js/main.6b64eda7.js",
+    "main.js": "/Ofir-Shaya/static/js/main.06f979f3.js",
     "static/media/bjCover.jpg": "/Ofir-Shaya/static/media/bjCover.991c2bf77c726eee44e7.jpg",
     "index.html": "/Ofir-Shaya/index.html",
     "main.5a6ee3d7.css.map": "/Ofir-Shaya/static/css/main.5a6ee3d7.css.map",
-    "main.6b64eda7.js.map": "/Ofir-Shaya/static/js/main.6b64eda7.js.map"
+    "main.06f979f3.js.map": "/Ofir-Shaya/static/js/main.06f979f3.js.map"
   },
   "entrypoints": [
     "static/css/main.5a6ee3d7.css",
-    "static/js/main.6b64eda7.js"
+    "static/js/main.06f979f3.js"
   ]
 }
