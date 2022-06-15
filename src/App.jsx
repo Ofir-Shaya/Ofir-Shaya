@@ -11,7 +11,11 @@ export const App = () => {
         <nav className="container">
           <div style={{ display: "inline" }}>
             <br />
-            <MaterialLink component={RouterLink} underline="always" to="/">
+            <MaterialLink
+              component={RouterLink}
+              underline="always"
+              to="/Ofir-Shaya"
+            >
               Home
             </MaterialLink>
             <hr />
