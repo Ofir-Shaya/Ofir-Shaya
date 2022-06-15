@@ -12,11 +12,11 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />}>
-        <Route path="/TicTacToe" element={<TicTacToe />} />
-        <Route path="/Calculator" element={<Calculator />} />
-        <Route path="/Blackjack" element={<Blackjack />} />
-        <Route path="/Restaurant" element={<Restaurant />} />
+      <Route path="/Ofir-Shaya" element={<App />}>
+        <Route path="/Ofir-Shaya/TicTacToe" element={<TicTacToe />} />
+        <Route path="/Ofir-Shaya/Calculator" element={<Calculator />} />
+        <Route path="/Ofir-Shaya/Blackjack" element={<Blackjack />} />
+        <Route path="/Ofir-Shaya/Restaurant" element={<Restaurant />} />
       </Route>
     </Routes>
   </BrowserRouter>,

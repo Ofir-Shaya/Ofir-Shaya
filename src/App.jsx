@@ -22,7 +22,7 @@ export const App = () => {
             <MaterialLink
               component={RouterLink}
               underline="always"
-              to="/TicTacToe"
+              to="/Ofir-Shaya/TicTacToe"
             >
               TicTacToe
             </MaterialLink>{" "}
@@ -30,7 +30,7 @@ export const App = () => {
             <MaterialLink
               component={RouterLink}
               underline="always"
-              to="/Calculator"
+              to="/Ofir-Shaya/Calculator"
             >
               Calculator
             </MaterialLink>{" "}
@@ -38,7 +38,7 @@ export const App = () => {
             <MaterialLink
               component={RouterLink}
               underline="always"
-              to="/Blackjack"
+              to="/Ofir-Shaya/Blackjack"
             >
               Blackjack
             </MaterialLink>{" "}
@@ -46,7 +46,7 @@ export const App = () => {
             <MaterialLink
               component={RouterLink}
               underline="always"
-              to="/Restaurant"
+              to="/Ofir-Shaya/Restaurant"
             >
               Restaurant
             </MaterialLink>
