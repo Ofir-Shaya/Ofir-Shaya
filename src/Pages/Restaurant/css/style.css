@@ -1,5 +1,60 @@
-body {
+* {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+}
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+.SideBar {
+  height: 100%;
+  width: 300px;
+  background-color: #5e747f;
+}
+.SideBarMinimized {
+  height: 100%;
+  width: 75px;
+  background-color: #5e747f;
+}
+.SidebarList {
+  height: auto;
+  padding: 0%;
+  width: 100%;
+}
+.SidebarList .row {
+  width: 100%;
+  height: 65px;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  color: aliceblue;
+  align-items: center;
+  justify-content: center;
+}
+.SidebarList .row:hover {
+  cursor: pointer;
+  background-color: #01161e;
+}
+.SidebarList #active.row {
+  cursor: pointer;
+  background-color: #01161e;
+}
+.row #icon {
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+.row #title {
+  flex: 70%;
+}
+.flexDisplay {
+  width: 100%;
+  height: 100%;
+  display: flex;
 }

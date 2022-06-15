@@ -16,7 +16,19 @@ ReactDOM.render(
         <Route path="/Ofir-Shaya/TicTacToe" element={<TicTacToe />} />
         <Route path="/Ofir-Shaya/Calculator" element={<Calculator />} />
         <Route path="/Ofir-Shaya/Blackjack" element={<Blackjack />} />
-        <Route path="/Ofir-Shaya/Restaurant" element={<Restaurant />} />
+        <Route path="/Ofir-Shaya/Restaurant" element={<Restaurant />}>
+          <Route path="/Ofir-Shaya/Restaurant/Home" element={<Restaurant />} />
+          <Route path="/Ofir-Shaya/Restaurant/Email" element={<Restaurant />} />
+          <Route
+            path="/Ofir-Shaya/Restaurant/Overview"
+            element={<Restaurant />}
+          />
+          <Route path="/Ofir-Shaya/Restaurant/Money" element={<Restaurant />} />
+          <Route
+            path="/Ofir-Shaya/Restaurant/Images"
+            element={<Restaurant />}
+          />
+        </Route>
       </Route>
     </Routes>
   </BrowserRouter>,
